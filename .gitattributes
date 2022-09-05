@@ -41,9 +41,13 @@
 *.json linguist-documentation=false
 *.json linguist-language=JSON
 # WebVTT subtitle file
-*.vtt linguist-detectable=true
+*.vtt linguist-detectable=false
 *.vtt linguist-documentation=false
 *.vtt linguist-language=WebVTT
+# ZenScript Source file
+*.zs linguist-detectable=true
+*.zs linguist-documentation=false
+*.zs linguist-language=ZenScript
 # SubRip subtitle file
 *.srt linguist-detectable=true
 *.srt linguist-documentation=false
@@ -57,7 +61,6 @@
 *.yaml linguist-documentation=false
 *.yaml linguist-language=YAML
 # Markdown
-# Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
 *.md linguist-detectable=false
 *.md linguist-documentation=false
 *.md linguist-language=Markdown
@@ -165,6 +168,6 @@
 
 # File info
 # File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File version: 5 (2022, Monday, September 5th at 3:18 pm PST)
+# Line count (including blank lines and compiler line): 174
 # End of script
